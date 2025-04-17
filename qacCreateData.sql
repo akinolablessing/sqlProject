@@ -77,5 +77,6 @@ CREATE  TABLE SALE_ITEM(
 	CONSTRAINT 			    SALE_ITEM_ITEM_FK FOREIGN KEY (ItemID)
 								          REFERENCES ITEM(ItemID)
   );
+  
 
 /******************************************************************************/
